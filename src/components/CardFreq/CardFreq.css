@@ -1,0 +1,68 @@
+.CardFreq {
+    width: 771px;
+    padding: 40px 37.5px;
+    border-radius: 12px;
+    background-color: #FFEFE5;
+    border: 2px solid #262626;
+    margin-bottom: 30px;
+        .one{
+            display: flex;
+            gap: 30px;
+            justify-content: space-between;
+            align-items: start;
+        }
+        h3{
+            font-family: "Outfit";
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 150%;
+            color: #262626;
+            margin-bottom: 24px;
+        }
+        p{
+            font-family: Outfit;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            color: #333333;
+            animation: fadeIn 0.3s ease-in-out;
+            border-top: 1px solid #262626;
+            padding-top: 24px;
+        }
+        button{
+            width: 40px;
+            height: 40px;
+            border: 2px solid #262626;
+            border-radius: 6px;
+            background-color: #FFF5F0;
+            color: #262626;
+            font-size: 30px;
+        }
+
+}
+.white{
+    background-color: white;
+}
+@media (max-width:1440px) {
+    .CardFreq{
+        padding: 26.5px 30px;
+        margin-bottom: 24px;
+        width: 620px;
+            h3{
+                font-size: 18px;
+            }
+            p{
+                font-size: 16px;
+            }
+            button{
+                width: 32px;
+                height: 32px;
+            }
+
+    }
+}
+@media (max-width:600px) {
+    .CardFreq{
+        width: 91.7948717%;
+    }
+}

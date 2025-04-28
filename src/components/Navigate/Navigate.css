@@ -1,0 +1,14 @@
+.allCardNavigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;   
+}
+@media (max-width: 1900px) {
+    .allCardNavigation{
+       
+        gap: 40px;
+    }
+}
+

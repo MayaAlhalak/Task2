@@ -1,0 +1,263 @@
+.footer{
+    padding: 100px 113px 40px 113px;
+    border: 2px solid #262626;
+    border-radius: 12px;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    background-color: #FFFFFF;
+    margin:0px 50px 50px 50px;
+        .allDev{
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            gap: 80px;
+                .devLeft{
+                    width: 519px;
+                    margin-bottom: 50px;
+                        p{
+                            font-family: "Outfit";
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 150%;
+                            color: #4C4C4D;
+                        }
+                        .devLeftone{
+                            margin-bottom: 50px;
+                                img{
+                                    width: 228.36663818359375px;
+                                    height: 50px;
+                                    margin-bottom: 20px;
+                                }
+                        }
+                        .devLefttwo{
+                            div{
+                                display: flex;
+                                align-items: center;
+                                justify-content: start;
+                                gap: 10px;
+                                    img{
+                                        width: 40px;
+                                        height: 40px;
+                                    }
+                                    p{
+                                        color: #262626;
+                                    }
+                            }
+                            .Two{
+                                margin: 24px 0px;
+                            }
+                        }
+                    }
+                .devRight{
+                    display: flex;
+                    align-items: start;
+                    justify-content: center;
+                    gap: 30px;
+                        .devRightone{
+                            display: flex;
+                            gap: 30px;
+                            align-items: start;
+                            justify-content: center;
+                                div{
+                                    width: 226px;
+                                    h3{
+                                        font-family: "Outfit";
+                                        font-weight: 600;
+                                        font-size: 20px;
+                                        line-height: 150%;
+                                        margin-bottom: 24px;
+                                        color: #262626;
+                                    }
+                                    p{
+                                        font-family: "Outfit";
+                                        font-weight: 500;
+                                        font-size: 20px;
+                                        line-height: 150%;
+                                        margin-bottom: 14px;
+                                        color: #333333;
+                                    }
+                                }
+                        }
+                }
+        }
+        .allDev2{
+            border-top:1px solid #262626 ;
+            border-bottom:1px solid #262626 ;
+            padding: 30px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+                .allDev2one{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 16px;
+                        p{
+                            font-family: "Outfit";
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 150%;
+                            color: #333333;
+                        }
+                        .mid{
+                            border-left: 2px solid #262626;
+                            border-right: 2px solid #262626;
+                            padding: 0px 16px;
+                        }
+                }
+                .allDev2two{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 14px;
+                        img{
+                            width: 56px;
+                            height: 56px;
+                        }
+                }
+        }
+        .allDev3{
+            margin-top: 30px;
+            text-align: center;
+                p{
+                    font-family: "Outfit";
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 150%;
+                    color: #656567;
+                }
+        }
+}
+@media (max-width:1440px) {
+    .footer{
+        padding: 80px 80px 40px 80px;
+           .allDev{
+                .devLeft{
+                    width: 393px;
+                    margin-bottom: 40px;
+                        .devLeftone{
+                            margin-bottom: 40px;
+                            img{
+                                width: 182.6933135986328px;
+                                height: 40px;
+                                margin-bottom: 16px;
+                            }
+                            p{
+                                font-size: 16px;
+                            }
+                        }
+                        .devLefttwo{
+                            div{
+                                gap: 8px;
+                                img{
+                                    width: 32px;
+                                    height: 32px;
+                                }
+                                p{
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                }
+                .devRight{
+                        .devRightone{
+                            div{
+                                width: 161px;
+                                    h3{
+                                        font-size: 16px;
+                                        margin-bottom: 20px;
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                    }
+                            }
+
+                        }
+                  
+                }
+           }
+           .allDev2{
+            padding: 20px 0;
+            .allDev2one{
+            gap: 10px;
+                p{
+                    font-size: 16px;
+                }
+                .mid {
+                    padding: 0px 10px;}
+            }
+            .allDev2two{
+                img{
+                    width: 48px;
+                    height: 48px;
+                }
+            }
+        }
+        .allDev3{
+            margin-top: 20px;
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+
+    
+}
+@media (max-width:1400px) {
+    .footer{
+        .allDev{
+            flex-wrap: wrap;
+            column-gap: 30px;
+        }
+    }
+    
+}
+@media (max-width:900px) {
+    .footer{
+        margin: 0px 16px 20px 16px;
+        padding: 60px 30px 30px 30px;
+        .allDev{
+            gap: 40px;
+            .devLeft{
+                .devLeftone{
+                    img{
+                        width: 182.6933135986328px;
+                        height: 40px;
+
+                    }
+                }
+            }
+        .devRight{
+            gap: 30px;
+            margin-bottom: 30px;
+            .devRightone{
+                flex-wrap: wrap;
+                gap: 50px;
+                div{
+                    width: 134px;
+                }
+            }
+            }
+           
+        }
+        .allDev2{
+            padding: 16px 0px;
+            justify-content: center;
+            .allDev2one{
+            gap: 3px;
+            margin-bottom: 20px;
+                p{
+                    font-size: 14px;
+                }
+                .mid {
+                    padding: 0px 6px;}
+            }
+            .allDev2two{
+                img{
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+        }
+    }
+}

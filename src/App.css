@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.padding {
+    padding: 0px 162px;
+}
+.margin {
+    margin-bottom: 200px;
+}
+body {
+    background-color: #FFF5F0;
+}
+@media (max-width: 1440px) {
+    .padding {
+        padding: 0px 80px;
+    }
+    .margin{
+        margin-bottom: 150px;
+    }
+}
+@media (max-width: 500px) {
+    .padding {
+        padding: 0px 16px;
+    }
+    .margin{
+        margin-bottom: 80px;
+    }
+}

@@ -1,0 +1,234 @@
+nav {
+    padding: 18px 50px 80px 50px;
+    width: 94.739583333%;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 100;
+        .top{
+            border-radius: 8px;
+            border: 2px solid #262626;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #FFDECC;
+            margin-bottom: 14px;
+                .topTwo{
+                    top: -6px;
+                    position: relative;
+                    left: 100px;
+                }
+                .topThree{
+                    position: relative;
+                    right: 110px;
+                    top: 12px;
+                }
+                p{
+                    font-family: "Outfit";
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #262626;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 14px;
+                }
+                }
+                .bottom{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border: 1px solid #262626;
+                    border-radius: 12px;
+                    background-color: #FFFFFF;
+                            }
+                            .devimge{
+                                border-right: 1px solid  #262626;
+                                background-color: #FF8D4D;
+                                display: flex;
+                                align-items: center;
+                                padding: 20px 24px;
+                                height: 110px;
+                                border-radius: 12px 0 0 12px;
+                            }
+                            .devbtn{
+                                display: none;
+                            }
+                            .devlink{
+                                display: flex;
+                                align-items: center;
+                                    li{
+                                        height: 110px;
+                                        list-style: none;
+                                            a{
+                                                display: flex;
+                                                align-items: center;
+                                                height: 100%;
+                                                text-decoration: none;
+                                                font-family: "Outfit";
+                                                font-weight: 500;
+                                                font-size: 20px;
+                                                line-height: 150%;
+                                                color:#262626 ;
+                                                padding: 24px 34px;
+                                                border-left: 1px solid #262626; 
+                                            }
+                                    }
+                            }
+
+}
+.color{
+    background-color: #FFAE80;
+}
+.color2 {
+    background-color: #FFEFE5;
+}
+
+.devbtn:hover{
+    background-color: #FFEFE5;
+}
+.isClose{
+    display: none;
+}
+.isopen{
+    display: none;
+}
+
+@media (max-width: 1440px){
+    nav{
+        padding: 16px 50px 60px 50px;
+
+            .top
+            {   p {
+                font-size: 16px;
+                    }
+                
+                .topTwo{
+                    left: 50.13px;
+                }
+                .topThree{
+                    right: 70.23px;
+                        }
+            }
+            .bottom{
+                .devlink a{
+                    font-size: 16px; 
+                    padding: 21px 30px;
+                }
+                .devimge{
+                    padding: 20px 16px;
+                }
+                .logo{
+                    width: 155.28932189941406px;
+                    height: 34px;
+            
+                }
+            }
+    }
+   
+    
+}
+@media (max-width: 1024px) {
+    nav{
+        padding: 40px 16px 0px 16px;
+            .top{
+                p{
+                    font-size: 14px;
+                }
+            }
+        .bottom {
+            .devlink{
+                display: none;
+            }
+            .devimge{
+                img{
+                    width: 137.01998901367188px;
+                    height: 30px;
+
+                }
+            }
+            .devbtn{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                height: 110px;
+                border-left: 1px solid #262626; 
+                padding: 24px 33.5px;
+                    .devbtnimg{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center; 
+                    }
+                   
+            }
+        }
+}
+.isopen{
+    display: block;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(50%, 50%);
+    z-index: 99;
+    border: 1px solid #262626;
+    padding: 20px 40px;
+    background-color: white;
+    li{
+        list-style: none;
+        margin: 20px 0;
+
+            a{
+                text-decoration: none;
+                color: #000;
+                font-size: 20px;
+            }
+    }
+   
+}
+}
+@media (max-width:936px) {
+    nav{
+        .top{
+            .topOne{
+                width: 50px;
+                height: 50px;
+            }
+            .topFour{
+                width: 50px ;
+                height: 50px;
+            }
+        }
+    }
+}
+@media (max-width: 400px) {
+    nav{
+        .top{
+            .topTwo{
+                left: -49.87px;
+                top: -11px;
+                width: 32px;
+                height: 32px;
+            }
+            .topThree{
+                right: -50.77px;
+                top: 10px;
+            }
+        }
+        .bottom{
+            .devimge{
+                    height: 100%;
+            }
+            .devbtn{
+                height: 100%;
+            }
+        }
+    }
+    .isopen{
+        top: 7%;
+        left: 25%;
+    }
+    
+}
+

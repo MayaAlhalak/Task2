@@ -1,0 +1,50 @@
+
+.CardTestimonials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+        button{
+            padding: 23px 21.5px;
+            background-color: white;
+            border: 2px solid #333333;
+            border-radius: 8px;
+        }
+        .cardss {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            transition: transform 0.3s ease-in-out;
+        }
+}
+.under{
+    display: none;
+}
+@media (max-width: 1440px) {
+    .CardTestimonials{
+        .cardss{
+            gap: 40px;
+        }
+    }
+}
+@media (max-width:1200px) {
+    .under{
+        display: flex;
+        margin-top: 40px;
+        gap: 20px;
+    }
+    .prev , .next{
+        display: none;
+    }
+}
+@media (max-width:700px) {
+    .CardTestimonials{
+        .cardss{
+            gap: 120px;
+            width: 358px;
+            overflow: hidden;
+        }
+    }
+}
