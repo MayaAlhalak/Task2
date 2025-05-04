@@ -1,0 +1,142 @@
+.containar{
+    overflow-x: hidden;
+    
+}
+.position{
+    position: relative;
+    top: 150px;
+    margin-bottom: 250px;
+}
+.CardRooms{
+    border: 2px solid rgba(38, 38, 38, 1);
+    box-shadow: 6px 6px 0px 2px rgba(30, 30, 30, 1);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    padding:235px 50px 50px;
+        p{
+            font-family: "Outfit" , sans-serif;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 150%;
+            color:rgba(76, 76, 77, 1);
+
+        }
+}
+.titlePlusBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+        h3{
+            font-family: "Raleway" , sans-serif;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 130%;
+            color: rgba(26, 26, 26, 1);
+        }
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            button{
+                padding: 23px 21.5px;
+                border: 2px solid #333;
+                border-radius: 8px;
+                background-color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+}
+.devImgs1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: absolute;
+    transform: translate(34%);
+    top: -152px;
+    overflow: hidden;
+    
+}
+.devImgs2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: absolute;
+   
+    transform: translate(0);
+    top: -152px;
+    overflow: hidden;
+}
+.devImgs3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: absolute;
+    transform: translate(-34%);
+    top: -152px;
+    overflow: hidden;
+}
+
+.imgSlider{
+    width: 1596px;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media (max-width:1440px) {
+    .devImgs1  img , .devImgs2 img  , .devImgs3 img  {
+        width: 270px;
+        height: 234px;
+    }
+    
+    .devImgs1{
+        transform: translate(30%);
+        top: -124px;
+    }
+    .devImgs2{
+        transform: translate(-4%);
+        top: -124px;
+    }
+    .devImgs3{
+        transform: translate(-38%);
+        top: -124px;
+    }
+    .CardRooms{
+        padding: 133px 40px 40px;
+    }
+    .position {
+        top: 120px;
+    }
+    .titlePlusBtn{
+        margin-bottom: 30px;
+        h3{
+            font-size: 34px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+}
+@media (max-width:992px) {
+    .titlePlusBtn{
+        flex-direction: column-reverse;
+        margin-bottom: 20px;
+        gap: 20px;
+       
+            h3{
+                font-size: 28px;
+            }
+            p{
+                font-size: 18px;
+                text-align: center;
+            }
+    }
+}

@@ -1,0 +1,99 @@
+.classMiss{
+    width: 996px;
+}
+.cardMiss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.card1{
+    padding: 60px;
+    max-width: 768px;
+    height: 410px;
+    border: 2px solid rgba(38, 38, 38, 1);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 6px 0px 2px rgba(30, 30, 30, 1);
+
+        .one{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 60px;
+                h3{
+                    font-family: "Raleway" , sans-serif;
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 130%;
+                    color: rgba(26, 26, 26, 1);
+                
+                }
+               
+        }
+        .two{
+            p{
+                font-family: "Outfit" , sans-serif;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 150%;
+                color: rgba(51, 51, 51, 1);
+
+            }
+        }
+}
+@media (max-width:1440px) {
+    .cardMiss{
+        gap: 40px;
+    }
+   .card1{
+    max-width: 620px;
+    height: 330px;
+    padding: 50px;
+    border-radius: 10px;
+        .one{
+            margin-bottom: 50px;
+                h3{
+                    font-size: 38px;
+                }
+                img{
+                    width: 60.43475341796875px;
+                    height: 60px;
+                }
+        }
+        .two{
+            p{
+                font-size: 16px;
+            }
+        }
+   } 
+}
+@media (max-width: 992px) {
+    .cardMiss{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .card1{
+        padding: 40px;
+        max-width:358px ;
+        height: 386px;
+        .one{
+            margin-bottom: 40px;
+                h3{
+                    font-size: 30px;
+                }
+                img{
+                    width: 50.3622932434082px;
+                    height: 50px;
+                }
+        }   }
+}
+@media (max-width:380px) {
+    .card1 {
+        .two{
+            p{
+                font-size: 13px;
+            }
+        }
+    }
+}

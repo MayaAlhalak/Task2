@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './NavBar.css'
+import {  NavLink } from 'react-router-dom'
 const NavBar = () => {
   const [open , setopen]=useState(false)
   const [active , setactive]=useState(1)
@@ -11,33 +12,34 @@ const NavBar = () => {
     {
       id:1,
       name : "Home",
-      hree : "#home" ,
+      hree : "/" ,
     } , 
     {
       id:2,
-      name :"About Us" ,
-      hree : "#about" ,
+      name :"About" ,
+      hree : "/About" ,
     } , 
     {
       id:3,
       name : "Academics" ,
-      hree : "#academ" ,
-    } , 
+      hree : "/Academics" ,
+    } ,
     {
       id:4,
-      name :"Admissions" , 
-      hree : "#Admissions" ,
+      name : "Admissions",
+      hree : "/Admissions" ,
     } , 
     {
       id:5,
-      name :"Student Life" , 
-      hree : "#Student" ,
+      name :"Student Life" ,
+      hree : "/Student" ,
     } , 
     {
       id:6,
-      name : "Contact",
-      hree : "#Contact" ,
-    } ]
+      name : "Contact" ,
+      hree : "/Contact" ,
+    } 
+  ]
   
      
   
@@ -61,7 +63,7 @@ const NavBar = () => {
         {
                 links.map((item , index) => (
                       <li key={index} onClick={() =>setactive(item.id)} className= {active == item.id ? 'color2' : ''}>
-                        <a  className={item.id == 6 ? 'color' : ''} href={item.hree}>{item.name}</a>
+                        <NavLink to={item?.hree} className={item?.id == 6 ? 'color' : ''}>{item?.name}</NavLink>
                       </li>
                 ))
                   }

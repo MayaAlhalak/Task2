@@ -1,7 +1,7 @@
 nav {
     padding: 18px 50px 80px 50px;
     width: 94.739583333%;
-    position: fixed;
+    position: relative;
     left: 50%;
     transform: translate(-50%);
     z-index: 100;
@@ -81,13 +81,17 @@ nav {
 .color{
     background-color: #FFAE80;
 }
-.color2 {
+
+.active{
+    background-color: #FFEFE5;
+}
+/* .color2 {
     background-color: #FFEFE5;
 }
 
 .devbtn:hover{
     background-color: #FFEFE5;
-}
+} */
 .isClose{
     display: none;
 }

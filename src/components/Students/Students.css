@@ -1,0 +1,27 @@
+.allcardstudent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.allcards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+}
+@media (max-width:1440px) {
+    .allcards , .allcardstudent{
+        gap: 40px;
+    }
+}
+@media (max-width:1350px) {
+    .allcardstudent{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .allcards{
+        gap: 30px;
+    }
+}

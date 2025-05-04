@@ -1,0 +1,113 @@
+.HeroAbout{
+        margin: 40px 50px 200px 50px;
+        background-color: #FFFFFF;
+        border: 2px solid #262626;
+        box-shadow: 8px 8px 0px 1px rgba(30, 30, 30, 1);
+       border-radius: 12px;
+        position: relative;
+            img{
+                position: absolute;
+                top: 0;
+                left: 0;
+              
+            }
+            .contenHero{
+                padding: 120px 150px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color:rgba(51, 51, 51, 1);
+                    div{
+                       width: 765px;
+                    }
+                    button{
+                        margin-bottom: 14px;
+                        padding: 10px 20px;
+                        border: 2px solid rgba(38, 38, 38, 1);
+                        border-radius: 6px;
+                        background: rgba(255, 255, 255, 1);
+                        font-family: "Outfit" , sans-serif;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 150%;
+                        text-align: center;
+
+                    }
+                    h2{
+                        font-family: "Raleway" , sans-serif;
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 130%;
+                        color:rgba(26, 26, 26, 1);
+                        
+                    }
+            }
+                    p{
+                        font-family: "Outfit" , sans-serif;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 150%;
+                        color: rgba(51, 51, 51, 1);
+                
+                     }
+    
+}
+@media (max-width:1440px) {
+    .HeroAbout{
+        margin: 184px 80px 150px 80px;
+        img{
+            width: 137px;
+            height: 137px;
+        }
+        .contenHero{
+            padding: 100px 80px;
+                div{
+                    width: 535px;
+                }
+                button{
+                    font-size: 16px;
+                    padding: 8px 16px;
+                    margin-bottom: 10px;
+                }
+                h2{
+                    font-size: 38px;
+                }
+                p{
+                    font-size: 16px;
+                }
+        }
+    }
+}
+@media (max-width:992px) {
+    .HeroAbout{
+        margin: 200px 16px 80px 16px;
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        .contenHero{
+            padding: 50px 30px;
+            text-align: center;
+            flex-direction: column;
+                div{
+                    max-width:  289px;
+                }
+                button{
+                    font-size: 14px;
+                }
+                h2{
+                    font-size: 28px;
+                    margin-bottom: 20px;
+                }
+              
+        }
+
+    }
+}
+@media (max-width: 380px) {
+    .contenHero {
+        p{
+            font-size: 14px;
+        }
+    }
+}

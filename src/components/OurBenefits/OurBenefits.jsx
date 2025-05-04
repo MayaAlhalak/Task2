@@ -8,6 +8,7 @@ function OurBenefits() {
     <section className='padding margin' id='about'>
       <div>
         <Title 
+        
         Ptitle = "Children Deserve Bright Future"
         H2title= "Our Benefits"
         P2title= "With a dedicated team of experienced educators, state-of-the-art facilities, and a comprehensive curriculum, we aim to lay a strong foundation for your child's future."/>
@@ -17,6 +18,7 @@ function OurBenefits() {
           DateBenfits.map((item , index) =>(
             <CardBenfits
             key={index}
+            ClassBen="allSec"
             image = {item.image}
             title={item.title}
             pargraph={item.pargraph}

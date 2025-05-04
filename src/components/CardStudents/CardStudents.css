@@ -1,0 +1,94 @@
+.CardStudent{
+    position: relative;
+    border: 2px solid rgba(38, 38, 38, 1);
+    box-shadow: 4px 4px 0px 1px rgba(30, 30, 30, 1);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 1);
+    padding: 50px;
+    text-align: center;
+    /* width: 49.867%; */
+    z-index: 1;
+        h3{
+            font-family: "Raleway" , sans-serif;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 130%;
+            
+            margin-bottom: 20px;
+        }
+        p{
+            font-family: "Outfit" , sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+        }
+        img{
+            position: relative;
+            z-index: 2;
+            margin-bottom: 50px;
+            width: 398.67px;
+            height: 304px;
+        }
+        .style{
+            border: 2px solid rgba(38, 38, 38, 1);
+            border-top: none;
+            background: rgba(255, 239, 229, 1);
+            width: 125px;
+            height: 384px;
+            border-bottom-right-radius: 12px;
+            border-bottom-left-radius: 12px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+            left: 50%;
+            transform: translate(-50%);    
+        }
+}
+@media (max-width: 1650px) {
+    .CardStudent{
+        padding: 40px;
+            h3{
+                font-size: 24px;
+                margin-bottom: 14px;
+            }
+            p{
+                font-size: 16px;
+            }
+            img{
+                width: 320px;
+                height: 220px;
+                margin-bottom: 40px;
+            }
+            .style{
+                width: 103px;
+                height: 282px;
+            }
+    }
+}
+@media (max-width: 992px) {
+    .CardStudent{
+        padding: 30px;
+        img{
+            width: 298px;
+            height: 191px;
+            margin-bottom: 30px;
+        }
+        h3{
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        .style{
+            width: 93px;
+            height: 237px;
+        }
+       
+    }
+}
+@media (max-width:390px) {
+    .CardStudent{
+        img{
+            width: 225px;
+        }
+    }
+}

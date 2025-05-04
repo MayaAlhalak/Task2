@@ -1,0 +1,24 @@
+.cardHistory{
+    border: 2px solid rgba(38, 38, 38, 1);
+    background: rgba(255, 255, 255, 1);
+    padding: 150px;
+    border-radius: 12px;
+    box-shadow: 6px 6px 0px 2px rgba(30, 30, 30, 1);
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media (max-width:1440px) {
+ .cardHistory {
+    padding: 100px;
+ }   
+}
+@media (max-width : 1000px) {
+    .cardHistory {
+        flex-wrap: wrap;
+        padding: 50px 10px;
+    }
+}
