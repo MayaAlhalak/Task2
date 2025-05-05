@@ -12,6 +12,7 @@ function OurRooms() {
   return (
     <section className='padding margin'>
       <Title
+       padd = 'padm'
       Ptitle= "Our Gallery"
       H2title= "Our Rooms Gallery"
       P2title= "Step into our Gallery and immerse yourself in a visual journey of cherished moments and unforgettable experiences at our kindergarten school."/>

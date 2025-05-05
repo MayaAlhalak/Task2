@@ -7,6 +7,9 @@
     justify-content: center;
     gap: 60px;
 }
+.padm{
+    padding: 0 300px;
+}
 .card1{
     padding: 60px;
     max-width: 768px;
@@ -43,6 +46,9 @@
         }
 }
 @media (max-width:1440px) {
+    .padm{
+        padding: 0 200px;
+    }
     .cardMiss{
         gap: 40px;
     }
@@ -69,6 +75,9 @@
    } 
 }
 @media (max-width: 992px) {
+    .padm{
+        padding: 0 ;
+    }
     .cardMiss{
         flex-direction: column;
         gap: 30px;

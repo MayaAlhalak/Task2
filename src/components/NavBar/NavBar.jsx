@@ -69,10 +69,8 @@ const NavBar = () => {
                   }
         </div>
         <div className='devbtn' >
-          <div className='devbtnimg'>
             <img onClick={listdown} src="/assets/image/NavBar/Icon.png" alt="" />
-          </div>
-          </div>
+        </div>
           
       </div>
     </nav>

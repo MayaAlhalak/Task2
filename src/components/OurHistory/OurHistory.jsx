@@ -6,6 +6,7 @@ function OurHistory() {
   return (
     <section className='padding margin'>
       <Title
+      padd = 'padm'
       Ptitle = "Our Progressive Journey"
       H2title = "Our History"
       P2title = "Founded with a passion for early education in 2005, our kindergarten school boasts a rich history of empowering young learners to reach their potential through innovative teaching methods and a supportive learning environment"/>

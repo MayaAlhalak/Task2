@@ -2,7 +2,7 @@ import './CardMission.css'
 
 function CardMission({show , img1 , img2 , title , title2 , text , style , dev1 , dev2 , dev11}) {
   return (
-    <div className= {style}>
+    <div className= {`hover ${style}`}>
       <div className={dev1}>
         <div className={dev11}>
           {show &&  <img src={img2} alt="" />}

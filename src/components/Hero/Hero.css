@@ -1,7 +1,7 @@
 .Hero{
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     gap: 60px;
     padding-top: 80px;
@@ -93,17 +93,35 @@
     .Hero{
         flex-wrap: wrap;
         flex-direction: column;
+        justify-content: start;
+        align-items: center;
     }
 }
 @media (max-width:800px) {
     .Hero{
-        padding-top: 180px;
+        padding-top: 50px;
         img{
             width: 358px;
             height: 410px;
         }
         .heroContant{
             width: 385px;
+            text-align: center;
+                .pargraph1::after{
+                    width: 260px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+                .allCard{
+                    flex-direction: column;
+                    padding: 40px;
+                        .border{
+                            padding: 20px 0;
+                            border-top:  2px solid rgba(38, 38, 38, 1);
+                            border-bottom:2px solid rgba(38, 38, 38, 1);
+                        }
+                }
+
         }
     }
 }

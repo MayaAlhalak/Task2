@@ -1,5 +1,5 @@
 .HeroAbout{
-        margin: 40px 50px 200px 50px;
+        margin: 60px 50px 200px 50px;
         background-color: #FFFFFF;
         border: 2px solid #262626;
         box-shadow: 8px 8px 0px 1px rgba(30, 30, 30, 1);
@@ -54,7 +54,7 @@
 }
 @media (max-width:1440px) {
     .HeroAbout{
-        margin: 184px 80px 150px 80px;
+        margin: 40px 80px 150px 80px;
         img{
             width: 137px;
             height: 137px;
@@ -80,7 +80,7 @@
 }
 @media (max-width:992px) {
     .HeroAbout{
-        margin: 200px 16px 80px 16px;
+        margin: 40px 16px 80px 16px;
         img{
             width: 100px;
             height: 100px;

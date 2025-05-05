@@ -15,6 +15,7 @@ function Hero({herotext , herotext2}) {
                 text = "Students Passed Out"
                 />
                 <CardHero
+                border ='border'
                 title = "+37"
                 text = "Awards & Recognitions"
                 />

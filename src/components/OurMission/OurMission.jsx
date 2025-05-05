@@ -7,7 +7,7 @@ function OurMission() {
   return (
     <section className='padding margin'>
       <Title
-       classTitle = "classMiss"
+      padd = 'padm'
       Ptitle = "Mission & Visions"
       H2title = "Our Mission & Visions"
       P2title = "We are here to provide a nurturing and inclusive environment where young minds can thrive, fostering a love for learning and personal growth."/>

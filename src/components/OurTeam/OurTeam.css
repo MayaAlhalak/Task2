@@ -1,4 +1,6 @@
-
+.paddt{
+    padding: 0 250px;
+}
 .maCardAll{
     .maCardOne{
         display: flex;
@@ -61,6 +63,9 @@
     }
 }
 @media (max-width: 1440px) {
+    .paddt{
+        padding: 0 200px;
+    }
     .maCardAll{
         .maCardOne{
             .maOne{
@@ -106,6 +111,9 @@
     
 }
 @media (max-width:1120px) {
+    .paddt{
+        padding: 0;
+    }
     .maCardOne{
         flex-direction: column;
         gap: 40px;

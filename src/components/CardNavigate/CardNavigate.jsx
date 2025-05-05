@@ -2,7 +2,7 @@ import './CardNavigate.css'
 
 function CardNavigate({title , text , btn}) {
   return (
-    <div className='cardNavigate'>
+    <div className='hover cardNavigate'>
       <h3>{title}</h3>
       <div className='underLine'>
             <div className="line"></div>

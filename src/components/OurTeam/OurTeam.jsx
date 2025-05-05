@@ -57,7 +57,7 @@ function OurTeam() {
   return (
     <section className='padding margin'>
       <Title
-      classTitle = "classTeam"
+      padd = 'paddt'
       Ptitle = "Our Teachers With Experties"
       H2title="Our Team Members"
       P2title ="At Little Learners Academy, our teaching team is the heart of our educational journey. We take great pride in employing highly qualified and passionate educators who possess a deep understanding of early childhood development. Our teachers create a warm and engaging atmosphere, encouraging curiosity, instilling confidence, and fostering a love for learning."/>

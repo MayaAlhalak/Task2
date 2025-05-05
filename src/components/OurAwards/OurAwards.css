@@ -5,6 +5,9 @@
     overflow: hidden;
     justify-content: center;
   }
+  .padw{
+    padding: 0 200px;
+  }
   
   .sliders {
     display: flex;
@@ -104,6 +107,9 @@
   
   
   @media (max-width: 1440px) {
+    .padw{
+      padding: 0 150px;
+    }
     .CardSlider {
       width: 406px;
     }
@@ -138,6 +144,9 @@
   }
   
   @media (max-width: 1000px) {
+    .padw{
+      padding: 0 ;
+    }
     .CardSlider {
       width: 385px;
         .sec-1{

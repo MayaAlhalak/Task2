@@ -9,6 +9,10 @@
 .margin {
     margin-bottom: 200px;
 }
+.hover:hover{
+    transform: translate(10px, 10px);
+    box-shadow: 0 0 37px 21px rgba(255, 222, 204, 1);
+}
 body {
     background-color: #FFF5F0;
 }
